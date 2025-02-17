@@ -15,7 +15,7 @@ app.use(express.static("public"));
 //   { id: 1, title: "Buy milk" },
 //   { id: 2, title: "Finish homework" },
 // ];
-
+//no need 
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
